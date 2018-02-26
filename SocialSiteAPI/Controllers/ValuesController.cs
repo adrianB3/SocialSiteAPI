@@ -9,7 +9,7 @@ using SocialSiteAPI.Data;
 
 namespace SocialSiteAPI.Controllers
 {
-    [Authorize]
+    [AllowAnonymous]
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
