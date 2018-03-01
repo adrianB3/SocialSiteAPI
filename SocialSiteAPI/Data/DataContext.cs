@@ -11,6 +11,9 @@ namespace SocialSiteAPI.Data
         public DbSet<Value> Values { get; set; } // represents the name of the table in the Database
 
         public DbSet<User> Users { get; set; }
+        
+        public DbSet<Photo> Photos { get; set; }
+        
     }
 }
 
